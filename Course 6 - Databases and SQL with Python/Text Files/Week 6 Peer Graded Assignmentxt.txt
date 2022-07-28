@@ -1,0 +1,86 @@
+kpanchal5069
+OTk5Ny1rcGFuY2hh
+
+
+
+SELECT cps.name_of_school, cps.average_student_attendance, cd.community_area_name, cd. hardship_index 
+FROM chicago_public_schools as cps
+LEFT OUTER JOIN census_data as cd ON cps.community_area_number = cd.community_area_number
+WHERE cd.hardship_index = 98;
+
+
+
+SELECT ccd.case_number, ccd.primary_type, cd.community_area_name, ccd.location_description
+FROM chicago_crime_data AS ccd
+LEFT OUTER JOIN census_data AS cd
+ON ccd.community_area_number = cd.community_area_number
+WHERE ccd.location_description LIKE '%SCHOOL%';
+
+
+
+CREATE OR REPLACE VIEW SCHOOL_DATA ("School_Name", "Leaders_Rating")
+AS SELECT "NAME_OF_SCHOOL", "LEADERS_ICON"
+FROM CHICAGO_PUBLIC_SCHOOLS;
+
+SELECT * FROM SCHOOL_DATA;
+
+
+
+--#SET TERMINATOR @
+CREATE OR REPLACE PROCEDURE UPDATE_LEADERS_SCORE(
+IN in_School_ID INTEGER,
+IN in_Leader_Score INTEGER)
+
+LANGUAGE SQL
+MODIFIES SQL DATA
+
+BEGIN
+
+UPDATE CHICAGO_PUBLIC_SCHOOLS
+SET "Leaders_Score" = in Leader_Score
+WHERE "School_ID" = in_School_ID;
+
+END
+@
+
+
+
+--#SET TERMINATOR @
+CREATE PROCEDURE UPDATE_LEADERS_SCORE(
+IN in_School_ID INTEGER,
+IN in_Leader_Score INTEGER)
+
+LANGUAGE SQL
+MODIFIES SQL DATA
+
+
+BEGIN
+	UPDATE chicago_public_schools
+    SET 'Leaders_Score' = in_Leader_Score
+    WHERE 'School_ID' = in_School_ID;
+    	IF in_Leader_Score > 0 AND in_Leader_Score < 20
+        THEN 
+        	UPDATE chicago_public_schools
+        		SET 'Leaders_Icon' = 'Very_Weak';
+        ELSEIF in_Leader_Score < 40
+        THEN 
+        	UPDATE chicago_public_schools
+        		SET 'Leaders_Icon' = 'Weak';
+        ELSEIF in_Leader_Score < 40
+        THEN 
+        	UPDATE chicago_public_schools
+       			SET 'Leaders_Icon' = 'Weak';
+        ELSEIF in_Leader_Score < 60
+        THEN 
+        	UPDATE chicago_public_schools
+        		SET 'Leaders_Icon' = 'Average';
+        ELSEIF in_Leader_Score < 80
+        THEN 
+        	UPDATE chicago_public_schools
+        		SET 'Leaders_Icon' = 'Strong';
+        ELSEIF in_Leader_Score < 100
+        THEN 
+        	UPDATE chicago_public_schools
+        		SET 'Leaders_Icon' = 'Very_Strong';
+        END IF;
+END

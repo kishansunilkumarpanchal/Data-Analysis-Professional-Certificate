@@ -1,0 +1,22 @@
+User id: sjq67113
+Pass: 2sAe1UoKzOsDEJvY
+port: 32733
+database: bludb
+hostname: 54a2f15b-5c0f-46df-8954-7e38e612c2bd.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud
+jdbc url: jdbc:db2://54a2f15b-5c0f-46df-8954-7e38e612c2bd.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud:32733/bludb:user=<userid>;password=<your_password>;sslConnection=true;
+
+IBM Cloud Trial code:
+74c6fca23395b336db497076205c5c4b
+
+dsn_hostname = "54a2f15b-5c0f-46df-8954-7e38e612c2bd.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud" # e.g.: "54a2f15b-5c0f-46df-8954-7e38e612c2bd.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
+dsn_uid = "sjq67113"        # e.g. "abc12345"
+dsn_pwd = "2sAe1UoKzOsDEJvY"      # e.g. "7dBZ3wWt9XN6$o0J"
+
+dsn_driver = "{IBM DB2 ODBC DRIVER}"
+dsn_database = "BLUDB"            # e.g. "BLUDB"
+dsn_port = "32733"                # e.g. "32733" 
+dsn_protocol = "TCPIP"            # i.e. "TCPIP"
+dsn_security = "SSL"              #i.e. "SSL"
+
+
+%sql ibm_db_sa://sjq67113:2sAe1UoKzOsDEJvY@54a2f15b-5c0f-46df-8954-7e38e612c2bd.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud:32733/BLUDB?security=SSL
