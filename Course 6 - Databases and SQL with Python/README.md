@@ -23,7 +23,7 @@ This folder contains datasets, in-class Jupyter lab Notebooks, Peer Graded Assig
 ## Hand Written Notes:
 
 <p align="center">
-<img src="https://https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Course%206%20-%20Databases%20and%20SQL%20with%20Python/Hand-written%20Notes/Course%206-1.jpeg"
+<img src="https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Course%206%20-%20Databases%20and%20SQL%20with%20Python/Hand-written%20Notes/Course%206-1.jpeg"
 
 <p align="center">
 <img src="https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Course%206%20-%20Databases%20and%20SQL%20with%20Python/Hand-written%20Notes/Course%206-2.jpeg"
