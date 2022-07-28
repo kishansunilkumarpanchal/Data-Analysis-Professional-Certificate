@@ -7,7 +7,7 @@
 ## 🥇 Professional Certificate
 
 <p align="center">
-<img src="https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Certificates/Kishan%20Panchal%20-%20%20Course%206%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python.pdf"
+<img src="https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Certificates/Kishan%20Panchal%20-%20%20Course%206%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python%20with%20Honors.jpg"
      
      
 
