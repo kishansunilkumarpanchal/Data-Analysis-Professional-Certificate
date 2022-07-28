@@ -4,6 +4,10 @@
  
 # Python Project for Data Science <img src="https://raw.githubusercontent.com/roshangrewal/IBM-Data-Science-Professional-Certification/master/IBM-Banner.png" align="right" width="120" />
 
+## 🥇 Professional Certificate
+
+<p align="center">
+<img src="https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Certificates/Kishan%20Panchal%20-%20%20Course%201%20-%20Introduction%20to%20Data%20Analytics.pdf"
 
 ## About this Project
 For this project, We assumed the role of a Data Scientist / Data Analyst working for a new startup investment firm that helps customers invest their money in stocks. I extracted financial data like historical share price and quarterly revenue reportings from various sources using Python libraries and webscraping on popular stocks. After collecting this data I visualized it in a dashboard to identify patterns or trends. The stocks I worked with are Tesla, Amazon, AMD, and GameStop.
