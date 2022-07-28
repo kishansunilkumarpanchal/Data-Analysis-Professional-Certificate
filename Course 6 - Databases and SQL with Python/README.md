@@ -13,12 +13,25 @@
 
 ## About this Project
 
- **The purpose of this course** is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language. It is also intended to get you started with performing SQL access in a data science environment.  
+**This Course** introduced relational database concepts and helped me to learn and apply foundational knowledge of the SQL language. I leared all the basic commands and functions of SQL such.  
 
-**The emphasis in this course** is on hands-on and practical learning . As such, you will work with real databases, real data science tools, and real-world datasets. You will create a database instance in the cloud. Through a series of hands-on labs you will practice building and running SQL queries. You will also learn how to access databases from Jupyter notebooks using SQL and Python.
+**The emphasis in this course** is on hands-on and practical learning. As such,I have worked with real databases, real data science tools, and real-world datasets. I created a database instance in the IBM DB2 cloud. Through a series of hands-on labs I practiced building and running SQL queries. I also learned how to access databases from Jupyter notebooks using SQL and Python with the help of Ibm_db or sqlite3 API..
 
 ## Final Course Assignment
-This folder contains data files and a Jupyter Notebook script that demonstrates use of a variety of SQL commands to query the three datasets.  
+This folder contains datasets, in-class Jupyter lab Notebooks, Peer Graded Assignment and Honors Assignment. 
+
+## Hand Written Notes:
+
+<p align="center">
+<img src="https://https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Course%206%20-%20Databases%20and%20SQL%20with%20Python/Hand-written%20Notes/Course%206-1.jpeg"
+
+<p align="center">
+<img src="https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Course%206%20-%20Databases%20and%20SQL%20with%20Python/Hand-written%20Notes/Course%206-2.jpeg"
+
+<p align="center">
+<img src="https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Course%206%20-%20Databases%20and%20SQL%20with%20Python/Hand-written%20Notes/Course%206-3.jpeg"
+
+
 * _Census_Data.csv_ contains six socioeconomic indicators of public health significance and a “hardship index,” by Chicago community area, for the years 2008 – 2012. For more detailed information, see the [data description](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2).  
 * _Chicago_Crime_Data.csv_ reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. For more detailed information, see the [data description](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2).  
 * _Chicago_Public_Schools.csv_ shows all school level performance data used to create CPS School Report Cards for the 2011-2012 school year. For more detailed information, see the [data description](https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t).  
