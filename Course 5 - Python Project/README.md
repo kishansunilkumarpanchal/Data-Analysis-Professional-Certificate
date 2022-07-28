@@ -7,7 +7,9 @@
 ## 🥇 Professional Certificate
 
 <p align="center">
-<img src="https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Certificates/Kishan%20Panchal%20-%20%20Course%201%20-%20Introduction%20to%20Data%20Analytics.pdf"
+<img src="https://github.com/kishansunilkumarpanchal/IBM-Data-Analysis-Professional-Certificate/blob/main/Certificates/Kishan%20Panchal%20-%20%20Course%205%20-%20Python%20Project%20for%20Data%20Science.jpg"
+     
+     
 
 ## About this Project
 For this project, We assumed the role of a Data Scientist / Data Analyst working for a new startup investment firm that helps customers invest their money in stocks. I extracted financial data like historical share price and quarterly revenue reportings from various sources using Python libraries and webscraping on popular stocks. After collecting this data I visualized it in a dashboard to identify patterns or trends. The stocks I worked with are Tesla, Amazon, AMD, and GameStop.
