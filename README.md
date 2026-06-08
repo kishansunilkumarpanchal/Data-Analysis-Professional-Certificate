@@ -13,7 +13,7 @@ Power your data analyst career by learning the core principles of data analysis 
 ## 🥇 Professional Certificate
 
 <p align="center">
-<img src="/Certificates/IBM%20Data%20Analyst.PNG"
+<img src=["/Certificates/IBM%20Data%20Analyst.PNG"](https://github.com/kishansunilkumarpanchal/Data-Analysis-Professional-Certificate/blob/main/Certificates/Kishan%20Panchal%20-%20IBM%20Data%20Analyst.jpg)>
 
 ---
 
